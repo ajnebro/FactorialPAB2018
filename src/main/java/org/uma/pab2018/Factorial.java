@@ -2,14 +2,14 @@ package org.uma.pab2018 ;
 
 public class Factorial {
   public int compute(int number) {
-    int result = 0 ;
+    int result ;
 
-    if ((number == 0) || (number == 1)) {
+    if (number < 0) {
+      throw new RuntimeException() ;
+    } if ((number == 0) || (number == 1)) {
       result = 1;
-    } else if (number == 2) {
-      result = 2 ;
-    } else if (number == 3) {
-      result = 6 ;
+    } else {
+      result = number * compute(number - 1) ;
     }
     return result ;
   }
