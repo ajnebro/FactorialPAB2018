@@ -1,8 +1,9 @@
-package org.uma.pab2018;
+package org.uma.pab2018.junit;
 
 import org.junit.Before;
 import org.junit.After;
 import org.junit.Test;
+import org.uma.pab2018.junit.Factorial;
 
 import static org.junit.Assert.assertEquals;
 

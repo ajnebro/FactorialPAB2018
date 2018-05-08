@@ -1,4 +1,4 @@
-package org.uma.pab2018 ;
+package org.uma.pab2018.junit;
 
 public class Factorial {
   public int compute(int number) {
